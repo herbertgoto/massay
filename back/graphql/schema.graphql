@@ -1,0 +1,5 @@
+type Schema {
+    query: Query
+    mutation: Mutation
+    suscription: Suscription
+}

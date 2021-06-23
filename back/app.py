@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
+import os
 
+from aws_cdk import core as cdk
 from aws_cdk import core
-
-from back.back_stack import BackStack
-
+from massay_backend_stack import MassayBackendStack
 
 app = core.App()
-BackStack(app, "back", env={'region': 'us-west-2'})
+MassayBackendStack(app, "MassayBackendStack",env={
+
+    'account':'xxxxxxxxxx',
+    'region': 'us-east-1'}    
+    )
 
 app.synth()
