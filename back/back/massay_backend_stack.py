@@ -1,3 +1,5 @@
+import os
+
 from aws_cdk import core as cdk
 
 from aws_cdk.aws_appsync import (
@@ -27,13 +29,24 @@ class MassayBackendStack(cdk.Stack):
     def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
+        ###Cognito resources
+        
+        #Userpool
+
+        #Client app
+        
         ###AppSync resources
         
         #API
         massay_backend_api = CfnGraphQLApi(
             self,'massayBackendApi',
             name="massay-backend-api",
-            authentication_type='USER_POOL'
+            authentication_type='AMAZON_COGNITO_USER_POOLS',
+            #user_pool_config=CfnGraphQLApi.UserPoolConfigProperty(
+            #user_pool_id=massay_user_pool.user_pool_id,
+            #aws_region='us-east-1',
+            #default_action="ALLOW"
+            #)
         )
 
         #Schema
