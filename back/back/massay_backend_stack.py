@@ -132,9 +132,19 @@ class MassayBackendStack(cdk.Stack):
                     items: [{ddb_tables[1].table_name}!]!
                     nextToken: String
                 }}
+                type {ddb_tables[0].table_name} {{
+                    pk: String!
+                    sk: String!
+                    question_text: String!              
+                }}
+                type Paginated{ddb_tables[0].table_name} {{
+                    items: [{ddb_tables[0].table_name}!]!
+                    nextToken: String
+                }}           
                 type Query {{
                     all(limit: Int, nextToken: String): Paginated{ddb_tables[1].table_name}!
                     getOne(pk: String!, sk: String!): {ddb_tables[1].table_name}
+                    getAllFactors(limit: Int, nextToken: String):Paginated{ddb_tables[0].table_name}!
                 }}
                 type Mutation {{
                     save(name: String!): {ddb_tables[1].table_name}
@@ -175,7 +185,41 @@ class MassayBackendStack(cdk.Stack):
             }}""",
             response_mapping_template="$util.toJson($ctx.result)"
         )
+        
+        data_source_settings = CfnDataSource(
+            self, 'SettingsDataSource',
+            api_id=massay_backend_api.attr_api_id,
+            name='SettingsDynamoDataSource',
+            type='AMAZON_DYNAMODB',
+            dynamo_db_config=CfnDataSource.DynamoDBConfigProperty(
+                table_name=ddb_tables[0].table_name,
+                aws_region=self.region
+            ),
+            service_role_arn=table_role.role_arn
+        )
 
-        get_one_resolver.add_depends_on(api_schema)        
+        get_allfactors_resolver = CfnResolver(
+            self, 'GetAllFactorsQueryResolver',
+            api_id=massay_backend_api.attr_api_id,
+            type_name='Query',
+            field_name='getAllFactors',
+            data_source_name=data_source_settings.name,
+            request_mapping_template=f"""\
+            {{
+                "version": "2017-02-28",
+                "operation": "Query",
+                "query": {{
+                    "expression" : "pk = :type",
+                    "expressionValues" : {{
+                        ":type" : $util.dynamodb.toDynamoDBJson("f")
+                    }}
+                }},
+                "limit":$context.arguments.limit
+            }}""",
+            response_mapping_template="$util.toJson($ctx.result)"
+        )        
+
+        get_one_resolver.add_depends_on(api_schema)
+        get_allfactors_resolver.add_depends_on(api_schema)
 
         
