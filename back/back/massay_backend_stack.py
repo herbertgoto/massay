@@ -1,6 +1,7 @@
 import os
 import ast
 import configparser
+from datetime import date
 
 from aws_cdk import core as cdk
 
@@ -140,15 +141,25 @@ class MassayBackendStack(cdk.Stack):
                 type Paginated{ddb_tables[0].table_name} {{
                     items: [{ddb_tables[0].table_name}!]!
                     nextToken: String
-                }}           
+                }}
+                type UserFactorAnswer{{
+                    pk:String!
+                    sk:String!
+                    weight:Int
+                }}
+                type PaginatedUserFactorAnswer {{
+                    items: [UserFactorAnswer!]!
+                }}                
                 type Query {{
                     all(limit: Int, nextToken: String): Paginated{ddb_tables[1].table_name}!
                     getOne(pk: String!, sk: String!): {ddb_tables[1].table_name}
                     getAllFactors(limit: Int, nextToken: String):Paginated{ddb_tables[0].table_name}!
+                    getUserFactorAnswers(userId: String!):PaginatedUserFactorAnswer!
                 }}
                 type Mutation {{
                     save(name: String!): {ddb_tables[1].table_name}
                     delete(pk: ID!, sk: String): {ddb_tables[1].table_name}
+                    saveFactorAnswer(userId:String!,factorId:String,weight:Int!):UserFactorAnswer
                 }}
                 type Schema {{
                     query: Query
@@ -186,6 +197,27 @@ class MassayBackendStack(cdk.Stack):
             response_mapping_template="$util.toJson($ctx.result)"
         )
         
+        get_userfactoranswers_resolver = CfnResolver(
+            self, 'GetUserFactorAnswersQueryResolver',
+            api_id=massay_backend_api.attr_api_id,
+            type_name='Query',
+            field_name='getUserFactorAnswers',
+            data_source_name=data_source.name,
+            request_mapping_template=f"""\
+            {{
+                "version": "2017-02-28",
+                "operation": "Query",
+                "query": {{
+                    "expression" : "pk = :userId AND begins_with(sk, :skfilter)",
+                    "expressionValues" : {{
+                        ":userId" : $util.dynamodb.toDynamoDBJson($ctx.args.userId),
+                        ":skfilter":$util.dynamodb.toDynamoDBJson("f")
+                    }}
+                }}
+            }}""",
+            response_mapping_template="$util.toJson($ctx.result)"
+        )
+        
         data_source_settings = CfnDataSource(
             self, 'SettingsDataSource',
             api_id=massay_backend_api.attr_api_id,
@@ -217,9 +249,34 @@ class MassayBackendStack(cdk.Stack):
                 "limit":$context.arguments.limit
             }}""",
             response_mapping_template="$util.toJson($ctx.result)"
+        )
+        
+        answer_date = date.today().isoformat()
+        
+        save_factor_answer_resolver = CfnResolver(
+            self, 'SaveFactorAnswerResolver',
+            api_id=massay_backend_api.attr_api_id,
+            type_name='Mutation',
+            field_name='saveFactorAnswer',
+            data_source_name=data_source.name,
+            request_mapping_template=f"""\
+            {{
+                "version": "2017-02-28",
+                "operation": "PutItem",
+                "key": {{
+                    "pk": {{ "S": "$ctx.args.userId" }},
+                    "sk": {{"S":"f#$ctx.args.factorId#{answer_date}"}}
+                }},
+                "attributeValues": {{
+                    "weight": $util.dynamodb.toDynamoDBJson($ctx.args.weight)
+                }}
+            }}""",
+            response_mapping_template="$util.toJson($ctx.result)"
         )        
 
         get_one_resolver.add_depends_on(api_schema)
         get_allfactors_resolver.add_depends_on(api_schema)
+        save_factor_answer_resolver.add_depends_on(api_schema)
+        get_userfactoranswers_resolver.add_depends_on(api_schema)
 
         
