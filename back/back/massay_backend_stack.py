@@ -157,7 +157,7 @@ class MassayBackendStack(cdk.Stack):
                     getUserFactorAnswers(userId: String!):PaginatedUserFactorAnswer!
                 }}
                 type Mutation {{
-                    save(name: String!): {ddb_tables[1].table_name}
+                    save(pk:String!,sk:String!,name: String): {ddb_tables[1].table_name}
                     delete(pk: ID!, sk: String): {ddb_tables[1].table_name}
                     saveFactorAnswer(userId:String!,factorId:String,weight:Int!):UserFactorAnswer
                 }}
@@ -279,4 +279,25 @@ class MassayBackendStack(cdk.Stack):
         save_factor_answer_resolver.add_depends_on(api_schema)
         get_userfactoranswers_resolver.add_depends_on(api_schema)
 
-        
+        save_user_resolver = CfnResolver(
+            self, 'SaveUserResolver',
+            api_id=massay_backend_api.attr_api_id,
+            type_name='Mutation',
+            field_name='save',
+            data_source_name=data_source.name,
+            request_mapping_template=f"""\
+            {{
+                "version": "2017-02-28",
+                "operation": "PutItem",
+                "key": {{
+                    "pk": {{ "S": "$ctx.args.pk" }},
+                    "sk": {{"S":"$ctx.args.sk"}}
+                }},
+                "attributeValues": {{
+                    "name": $util.dynamodb.toDynamoDBJson($ctx.args.name)
+                }}
+            }}""",
+            response_mapping_template="$util.toJson($ctx.result)"
+        )        
+
+        save_user_resolver.add_depends_on(api_schema)
