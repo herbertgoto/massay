@@ -8,6 +8,12 @@
       "languageVersion": "2.7"
     },
     {
+      "name": "amplify_api",
+      "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_api-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "amplify_api_plugin_interface",
       "rootUri": "file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/amplify_api_plugin_interface-0.1.5",
       "packageUri": "lib/",
@@ -326,7 +332,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-06-24T01:54:50.915806Z",
+  "generated": "2021-06-24T16:14:21.763840Z",
   "generator": "pub",
   "generatorVersion": "2.13.1"
 }

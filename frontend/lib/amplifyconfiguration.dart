@@ -12,15 +12,15 @@ const amplifyconfig = ''' {
                 "CredentialsProvider": {
                     "CognitoIdentity": {
                         "Default": {
-                            "PoolId": "us-east-1:1a4b16d8-a8fb-409e-a225-cfb448e6c3b1",
+                            "PoolId": "us-east-1:6043b5a5-77b0-42a7-a86b-628cc46cbdca",
                             "Region": "us-east-1"
                         }
                     }
                 },
                 "CognitoUserPool": {
                     "Default": {
-                        "PoolId": "us-east-1_SKFIeo71J",
-                        "AppClientId": "7ro69qdllfihbsb05ujqs86p7g",
+                        "PoolId": "us-east-1_PTaXhifKe",
+                        "AppClientId": "46b0b72eacktp0sdljp6at1lvp",
                         "Region": "us-east-1"
                     }
                 },
@@ -28,6 +28,26 @@ const amplifyconfig = ''' {
                     "Default": {
                         "authenticationFlowType": "USER_SRP_AUTH"
                     }
+                },
+                "AppSync": {
+                    "Default": {
+                        "ApiUrl": "https://rtci2k2d2be6picyhskrphalea.appsync-api.us-east-1.amazonaws.com/graphql",
+                        "Region": "us-east-1",
+                        "AuthMode": "AMAZON_COGNITO_USER_POOLS",
+                        "ClientDatabasePrefix": "frontendamplify_AMAZON_COGNITO_USER_POOLS"
+                    }
+                }
+            }
+        }
+    },
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "massay-backend-api": {
+                    "endpointType": "GraphQL",
+                    "endpoint": "https://rtci2k2d2be6picyhskrphalea.appsync-api.us-east-1.amazonaws.com/graphql",
+                    "region": "us-east-1",
+                    "authorizationType": "AMAZON_COGNITO_USER_POOLS"
                 }
             }
         }

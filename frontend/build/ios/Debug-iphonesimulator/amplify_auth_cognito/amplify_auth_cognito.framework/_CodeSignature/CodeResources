@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n0mWBmgWANInl5qe0763v5Dfqq0=
+		/jlU92TdeyHYXVLA5qkbEXbbTL8=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		n0mWBmgWANInl5qe0763v5Dfqq0=
+		/jlU92TdeyHYXVLA5qkbEXbbTL8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGxAXvljp0rIt5auhgLKQPr4jjcLdGS9+kFeZ5V5SNo=
+			6f6Nxhuspgw6Qbw9LfCqrBROjMJGocY0w3jGstMSWyA=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftdoc</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGxAXvljp0rIt5auhgLKQPr4jjcLdGS9+kFeZ5V5SNo=
+			6f6Nxhuspgw6Qbw9LfCqrBROjMJGocY0w3jGstMSWyA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -190,6 +190,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -206,6 +208,84 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="AmplifyPlugins",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
+SWIFT_CLASS("_TtC14AmplifyPlugins12AWSAPIPlugin")
+@interface AWSAPIPlugin : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+@class NSURLSession;
+@class NSURLSessionDataTask;
+@class NSData;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionDataDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveData:(NSData * _Nonnull)data;
+@end
+
+
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
+
+
+
+
+@class NSURLSessionTask;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionTaskDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
+@end
+
+
+
+
+@class NSCoder;
+@class NSURL;
+@class NSString;
+@class NSNumber;
+
+/// <code>AWSHTTPURLResponse</code> contains the response body and metadata associated with the response to an HTTP request.
+/// When using <code>AWSAPIPlugin</code>, you can optionally type cast <code>HTTPURLResponse</code> to an instances of <code>AWSHTTPURLResponse</code>.
+/// The response body can be accessed from the <code>body: Data?</code> property. For example, when the <code>APIError</code> is an
+/// <code>.httpStatusError(StatusCode, HTTPURLResponse)</code>, then access the response body by type casting the response to
+/// an <code>AWSHTTPURLResponse</code> and retrieve the <code>body</code> field.
+/// \code
+/// if case let .httpStatusError(statusCode, response) = error, let awsResponse = response as? AWSHTTPURLResponse {
+///     if let responseBody = awsResponse.body {
+///         print("Response contains a \(responseBody.count) byte long response body")
+///     }
+/// }
+///
+/// \endcode<em>Note</em>: The class inheritance to <code>HTTPURLResponse</code> is to provide above mechanism, and actual
+/// implementation acts as a facade that stores an instance of <code>HTTPURLResponse</code> that delegates overidden methods to
+/// this stored property.
+SWIFT_CLASS("_TtC14AmplifyPlugins18AWSHTTPURLResponse")
+@interface AWSHTTPURLResponse : NSHTTPURLResponse
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+@property (nonatomic, readonly, copy) NSURL * _Nullable URL;
+@property (nonatomic, readonly, copy) NSString * _Nullable MIMEType;
+@property (nonatomic, readonly) int64_t expectedContentLength;
+@property (nonatomic, readonly, copy) NSString * _Nullable textEncodingName;
+@property (nonatomic, readonly, copy) NSString * _Nullable suggestedFilename;
+@property (nonatomic, readonly) NSInteger statusCode;
+@property (nonatomic, readonly, copy) NSDictionary * _Nonnull allHeaderFields;
+- (NSString * _Nullable)valueForHTTPHeaderField:(NSString * _Nonnull)field SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (nullable instancetype)initWithURL:(NSURL * _Nonnull)url statusCode:(NSInteger)statusCode HTTPVersion:(NSString * _Nullable)HTTPVersion headerFields:(NSDictionary<NSString *, NSString *> * _Nullable)headerFields SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithURL:(NSURL * _Nonnull)URL MIMEType:(NSString * _Nullable)MIMEType expectedContentLength:(NSInteger)length textEncodingName:(NSString * _Nullable)name SWIFT_UNAVAILABLE;
+@end
+
 
 
 
@@ -406,6 +486,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -422,6 +504,84 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="AmplifyPlugins",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
+SWIFT_CLASS("_TtC14AmplifyPlugins12AWSAPIPlugin")
+@interface AWSAPIPlugin : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+
+
+@class NSURLSession;
+@class NSURLSessionDataTask;
+@class NSData;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionDataDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session dataTask:(NSURLSessionDataTask * _Nonnull)dataTask didReceiveData:(NSData * _Nonnull)data;
+@end
+
+
+@class NSURLAuthenticationChallenge;
+@class NSURLCredential;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+@end
+
+
+
+
+
+@class NSURLSessionTask;
+
+@interface AWSAPIPlugin (SWIFT_EXTENSION(AmplifyPlugins)) <NSURLSessionTaskDelegate>
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didReceiveChallenge:(NSURLAuthenticationChallenge * _Nonnull)challenge completionHandler:(void (^ _Nonnull)(NSURLSessionAuthChallengeDisposition, NSURLCredential * _Nullable))completionHandler;
+- (void)URLSession:(NSURLSession * _Nonnull)session task:(NSURLSessionTask * _Nonnull)task didCompleteWithError:(NSError * _Nullable)error;
+@end
+
+
+
+
+@class NSCoder;
+@class NSURL;
+@class NSString;
+@class NSNumber;
+
+/// <code>AWSHTTPURLResponse</code> contains the response body and metadata associated with the response to an HTTP request.
+/// When using <code>AWSAPIPlugin</code>, you can optionally type cast <code>HTTPURLResponse</code> to an instances of <code>AWSHTTPURLResponse</code>.
+/// The response body can be accessed from the <code>body: Data?</code> property. For example, when the <code>APIError</code> is an
+/// <code>.httpStatusError(StatusCode, HTTPURLResponse)</code>, then access the response body by type casting the response to
+/// an <code>AWSHTTPURLResponse</code> and retrieve the <code>body</code> field.
+/// \code
+/// if case let .httpStatusError(statusCode, response) = error, let awsResponse = response as? AWSHTTPURLResponse {
+///     if let responseBody = awsResponse.body {
+///         print("Response contains a \(responseBody.count) byte long response body")
+///     }
+/// }
+///
+/// \endcode<em>Note</em>: The class inheritance to <code>HTTPURLResponse</code> is to provide above mechanism, and actual
+/// implementation acts as a facade that stores an instance of <code>HTTPURLResponse</code> that delegates overidden methods to
+/// this stored property.
+SWIFT_CLASS("_TtC14AmplifyPlugins18AWSHTTPURLResponse")
+@interface AWSHTTPURLResponse : NSHTTPURLResponse
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)coder;
+@property (nonatomic, readonly, copy) NSURL * _Nullable URL;
+@property (nonatomic, readonly, copy) NSString * _Nullable MIMEType;
+@property (nonatomic, readonly) int64_t expectedContentLength;
+@property (nonatomic, readonly, copy) NSString * _Nullable textEncodingName;
+@property (nonatomic, readonly, copy) NSString * _Nullable suggestedFilename;
+@property (nonatomic, readonly) NSInteger statusCode;
+@property (nonatomic, readonly, copy) NSDictionary * _Nonnull allHeaderFields;
+- (NSString * _Nullable)valueForHTTPHeaderField:(NSString * _Nonnull)field SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=13.0);
+- (nullable instancetype)initWithURL:(NSURL * _Nonnull)url statusCode:(NSInteger)statusCode HTTPVersion:(NSString * _Nullable)HTTPVersion headerFields:(NSDictionary<NSString *, NSString *> * _Nullable)headerFields SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithURL:(NSURL * _Nonnull)URL MIMEType:(NSString * _Nullable)MIMEType expectedContentLength:(NSInteger)length textEncodingName:(NSString * _Nullable)name SWIFT_UNAVAILABLE;
+@end
+
 
 
 

@@ -943,6 +943,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 amplify_analytics_plugin_interface
+amplify_api
 amplify_auth_cognito
 amplify_auth_plugin_interface
 amplify_flutter

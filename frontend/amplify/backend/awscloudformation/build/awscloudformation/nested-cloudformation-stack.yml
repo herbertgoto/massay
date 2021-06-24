@@ -80,7 +80,7 @@
     "authfrontendamplifyb9cae520": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-frontendamplify-dev-95543-deployment/amplify-cfn-templates/auth/frontendamplifyb9cae520-cloudformation-template.yml",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-frontendamplify-develop-110611-deployment/amplify-cfn-templates/auth/frontendamplifyb9cae520-cloudformation-template.yml",
         "Parameters": {
           "identityPoolName": "frontendamplifyb9cae520_identitypool_b9cae520",
           "allowUnauthenticatedIdentities": false,
@@ -124,7 +124,7 @@
           "serviceName": "Cognito",
           "usernameCaseSensitive": false,
           "dependsOn": "",
-          "env": "dev"
+          "env": "develop"
         }
       }
     },

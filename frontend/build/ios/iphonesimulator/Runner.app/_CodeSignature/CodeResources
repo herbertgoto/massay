@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/AWSAuthCore.framework/AWSAuthCore</key>
 		<data>
-		CJSFq1wH2hXWWPU+bQLkIQr65CA=
+		Yf5IxiPA8kDkEkla968kFpB073E=
 		</data>
 		<key>Frameworks/AWSAuthCore.framework/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider</key>
 		<data>
-		GeKF2xJWL70LdOeMKagCklUiruE=
+		1h1W2LSpZXAxqaHqxXw/gKTtEak=
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF</key>
 		<data>
-		xCelGRDkwuYFAuTpvGot1TwzsHw=
+		Q00gjDVugT7B7rsUlDuhQN0digU=
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		7UW5JNwUmb9tl1I1wUtmoQOA+qQ=
+		ZHSqGba2t8t9a8c73fPpgRS3LYY=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Frameworks/AWSMobileClient.framework/AWSMobileClient</key>
 		<data>
-		nyr3AKQc9zUiTQ8e0og4u92AsOE=
+		rdgEePN6Tblg+5gCDPpTlx1uMBI=
 		</data>
 		<key>Frameworks/AWSMobileClient.framework/Info.plist</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Frameworks/AWSPluginsCore.framework/AWSPluginsCore</key>
 		<data>
-		qOBbS7Bbp7JZuOPdeLhv3MbHzek=
+		dfxmf/v45ZHqRZD9s1Q4XoTcrsc=
 		</data>
 		<key>Frameworks/AWSPluginsCore.framework/Info.plist</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Frameworks/AmplifyPlugins.framework/AmplifyPlugins</key>
 		<data>
-		ifZbL1cCHTHVRuoCbjPR4RJxRTo=
+		FjEupr66QjQpnq2zgFu5Gm8pel8=
 		</data>
 		<key>Frameworks/AmplifyPlugins.framework/Info.plist</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		2uLZSF+XOCy3+USLT5qU0chlD/0=
+		teyD5ZUBzqzKqRbX/7IfaQIusYM=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		09U5/qVrZrvt7/Q8XEUQeIl0OV8=
+		RhkH2UdW+Du11GByVydpt+ycWyk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		UnN5tLURj1xPTcYafL9e6POyqWg=
+		Iphe8d4z9slxnpTvpM+oj66jIDc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES</key>
 		<data>
-		f5hrGsZwe3sh9S65nCr6OK5DU3Q=
+		1lQUXABaW0TqFSqZkRveXh3xBCE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/factor_diet.png</key>
 		<data>
@@ -204,6 +204,10 @@
 		<data>
 		yKqI3mlAIogAaw6Y9qiQ3+LOm6k=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/main_screen.png</key>
+		<data>
+		rPghr6ZXPMhm6tY55v7H/SpUEvs=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
 		33xe6rFwPlxRnZOgZWsODADpUI4=
@@ -222,7 +226,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		lg3lCYcKuZtbBJYohijTb/ryLh8=
+		AnqNGxRQQkss6JFG1IXU0o60y2o=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -231,6 +235,18 @@
 		<key>Frameworks/App.framework/flutter_assets/vm_snapshot_data</key>
 		<data>
 		BICKLyZmEDX0yMJrQwYDz3tKwt8=
+		</data>
+		<key>Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient</key>
+		<data>
+		zhvUpYGBGcV4HaAXW9GT+a+JXfk=
+		</data>
+		<key>Frameworks/AppSyncRealTimeClient.framework/Info.plist</key>
+		<data>
+		zCl1aHd8mmyZak3mSQTEUYMdgdY=
+		</data>
+		<key>Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources</key>
+		<data>
+		YduZsPrEZ+ksfrrnCJL+tDI8Xuk=
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
@@ -328,6 +344,30 @@
 		<data>
 		78T9utdjShxSKPZ0b5xdo9ThOd8=
 		</data>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<data>
+		xMMPJRYmCG4iUw3Zjftb8IPSfTM=
+		</data>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<data>
+		8ttsmsBpTcsrgBePXbt0dpnfIjo=
+		</data>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<data>
+		aUH5qUshUcm15OCx77fjGO4yry0=
+		</data>
+		<key>Frameworks/amplify_api.framework/Info.plist</key>
+		<data>
+		lMvzfy8pHFVp18qzlHYngmAxadY=
+		</data>
+		<key>Frameworks/amplify_api.framework/_CodeSignature/CodeResources</key>
+		<data>
+		AWLJD2q8niTO9Y1lWzSimO73f0s=
+		</data>
+		<key>Frameworks/amplify_api.framework/amplify_api</key>
+		<data>
+		FO2OwvphAuRUbQVkWCDhUQHLOwM=
+		</data>
 		<key>Frameworks/amplify_auth_cognito.framework/Info.plist</key>
 		<data>
 		ZUbo4IGhNCYfuJtD0Bhb0VDDjJ4=
@@ -338,7 +378,7 @@
 		</data>
 		<key>Frameworks/amplify_auth_cognito.framework/amplify_auth_cognito</key>
 		<data>
-		PVlZvEw565HP4r8W/JfuWPWGYpY=
+		vz3vRQM/GYjONdLoygVgr0ur534=
 		</data>
 		<key>Frameworks/amplify_core.framework/Info.plist</key>
 		<data>
@@ -362,7 +402,7 @@
 		</data>
 		<key>Frameworks/amplify_flutter.framework/amplify_flutter</key>
 		<data>
-		GLZK3EJyx7HkDAik3N7pSO18/jY=
+		jjZTp7XyEs7fzrOBoSu1WDSvSI0=
 		</data>
 		<key>Frameworks/integration_test.framework/Info.plist</key>
 		<data>
@@ -533,7 +573,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QfFgzPHwS2wa1/WFigyLnXr7iC8eUhRq8RbTMH78epI=
+			nzkduPDkzm6/ha9Rmaf6ERSeuhnVLpl+0fXHLFtn7jw=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthCore.framework/Info.plist</key>
@@ -554,7 +594,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXkXO0wMckdEqimHSwytvwGkLebvBEQx6TJx7gtl1Sw=
+			AkGrAmWRT/WuOt+C1SzP8MN9v4NklPq/TttWHW6U7fg=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/Info.plist</key>
@@ -575,7 +615,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHzNzAoAKwNuvisfXUbQyhbpfz56NNoyDDpYw/6Wnm4=
+			HBTIlG4hL78U0QmUVs9k7FXy8IiqmPJD6cTqBf9+vGY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist</key>
@@ -596,7 +636,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HCcatC5KNiyBmREjvbLvnwJaKyAC+RkqX61tt5kwHbI=
+			7ELLJ/mPFqO/6nh4cujjrbOkS1v6QngRGwkTozxt0cA=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -617,7 +657,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+h+6tDywfVVVh3uu4sf0a2Tv7Qpjy35ljH1S57A4M8s=
+			MkFYgWGom3Aw5Dtr7XxTFNmb/bXBZCOVVgTNmpyyQu0=
 			</data>
 		</dict>
 		<key>Frameworks/AWSMobileClient.framework/Info.plist</key>
@@ -638,7 +678,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lO0YzO6OZoSMAp8fE/JgNEj5+jTyqUAXEyp2vQzG9fw=
+			8z4Flwcvbody0nepMHSQEdN5jOsUbqXrrUELc0k0lTk=
 			</data>
 		</dict>
 		<key>Frameworks/AWSPluginsCore.framework/Info.plist</key>
@@ -680,7 +720,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mQkkg/fPHvodAtmL+oIe50TxCRBNGXIhHKkbVSrk5Ug=
+			2/fLpcYaky+CN0eq0zInqlMNtUO7SMMiIcpS/GK9grg=
 			</data>
 		</dict>
 		<key>Frameworks/AmplifyPlugins.framework/Info.plist</key>
@@ -701,7 +741,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXs4G3f72BnVWkVzi/k9FJMcFO8Gn51++CeJB3BicdY=
+			6ZwmZ/2iqlFPMta09y9uO3oaI8Rlac6irKQVsdHQLWY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -715,14 +755,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			njRM5GwLfYuVMw5Tn0fLlDOBdQz0eLoR6we6nhZ+hg4=
+			QfFjpQYoN5cwBCVdEzyiXN/iDy/gW1h7ITnIs6pY3+k=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/NG/s8v/mU5CsswLfHuNqnaH3Ga+BO4/g7e4TshN2o=
+			brIBQcQdDUvxfT+CPN/1XfiBWgSNLI/ktTt7Qf+wRbw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -736,7 +776,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7q+4xFZNkI3v0J12ZUQHQU+bH5rnDpahIUxtfmEiP7o=
+			/oK5uLwDkaBcFdXIb1MxdVCzVr5OsgpgNsnZTbn91qY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/factor_diet.png</key>
@@ -809,6 +849,13 @@
 			AL2wYqF7v0PHqky6N2NukWOqFEeM3PxcdWN2yX5vmXo=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/main_screen.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MjrCp+f/2z+g3Ooylei9nrvXQTl2/HWGjF+K7yiZYsU=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash2</key>
@@ -841,7 +888,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wLMLO8Ikxw3UaReOa4l1L/NfdNqSny+yuaacPy2rNFo=
+			i0eDDJHyQg3F5UWExp/0YtHJBe+JctkMZhuHIhMrchc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -856,6 +903,27 @@
 			<key>hash2</key>
 			<data>
 			dW/lW8/DGE7kqgVOIL22hio/M/WrH8+bodAoyvhyXsU=
+			</data>
+		</dict>
+		<key>Frameworks/AppSyncRealTimeClient.framework/AppSyncRealTimeClient</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ejRfljopzF6/P97mfpP5JCCY+Gn+lKrJ1AggtH/298k=
+			</data>
+		</dict>
+		<key>Frameworks/AppSyncRealTimeClient.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bh3GguptxFgXcaNabIsEQKAVFjGvdy2+NhJHWYRvZHk=
+			</data>
+		</dict>
+		<key>Frameworks/AppSyncRealTimeClient.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WtSb2l1N0EC8XEt7rXaSYP+be89CsEk1UthxLiaWXR0=
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Flutter</key>
@@ -1026,6 +1094,48 @@
 			seU1ZFZylx2K5EdJ1F2lKf/HR5NvzRqGoRrFDgNoWHg=
 			</data>
 		</dict>
+		<key>Frameworks/Starscream.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wEGVfV1P0v5ntntahKefmC3jByTqC3upKQbTuwq+pYM=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/Starscream</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l0/lcCOWtdXJ5PPhpO0TDH8ENRpf1m+oOKaKQC+yyTk=
+			</data>
+		</dict>
+		<key>Frameworks/Starscream.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UcL+5Psn+FmcLuIQIvzLjyvpvAMUO7NvrYi97ATEppQ=
+			</data>
+		</dict>
+		<key>Frameworks/amplify_api.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Py+ykp/YVZFSrJKNuUwf8fkORVuJ+rj/nogvpe3lTVw=
+			</data>
+		</dict>
+		<key>Frameworks/amplify_api.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5w1hX6N73hAob8B1Hpp63lZv9YSXq58np6vWYK2QC1k=
+			</data>
+		</dict>
+		<key>Frameworks/amplify_api.framework/amplify_api</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JpjL2Wt8gurQ7yjTH5vYCz9HDNaNpbNC+MQWXFesaPo=
+			</data>
+		</dict>
 		<key>Frameworks/amplify_auth_cognito.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -1044,7 +1154,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			78oNXTe0LI1kLeJnThsOktbU4uNYhkEZ16NXlqv/nQk=
+			3/so5zqI/auAzHeKwJoi84MVy52rPm2ZUrsEONaidVU=
 			</data>
 		</dict>
 		<key>Frameworks/amplify_core.framework/Info.plist</key>
@@ -1086,7 +1196,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HAL7YcrBUqSXwZtqJmY68FMU1x76fkrRIcVTw6m2btM=
+			1iQoKIKCePvZAj2hjOX9IVxVFy0IBtKAk6BkgReuVVs=
 			</data>
 		</dict>
 		<key>Frameworks/integration_test.framework/Info.plist</key>
