@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		xmyRSXEwe80GxWHtOzGOg6Kc1Lo=
+		UnN5tLURj1xPTcYafL9e6POyqWg=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -19,6 +19,42 @@
 		<key>flutter_assets/NOTICES</key>
 		<data>
 		f5hrGsZwe3sh9S65nCr6OK5DU3Q=
+		</data>
+		<key>flutter_assets/assets/images/factor_diet.png</key>
+		<data>
+		o+J2kRhPFH2mGeUad/nTpZ8lIPc=
+		</data>
+		<key>flutter_assets/assets/images/factor_exercise.png</key>
+		<data>
+		XZ2vsqmSyrWFZ3aXuo07fH0gn0g=
+		</data>
+		<key>flutter_assets/assets/images/factor_init_image.png</key>
+		<data>
+		MPSUeQDDPzKRI4g0Z7c1lwZMtII=
+		</data>
+		<key>flutter_assets/assets/images/factor_job_demands.png</key>
+		<data>
+		pVv6rIFoh5FZOGYjKa4ixt/0vtE=
+		</data>
+		<key>flutter_assets/assets/images/factor_job_expectation.png</key>
+		<data>
+		Yoqxzd1ujCi6yOVQNNM8qZFenHA=
+		</data>
+		<key>flutter_assets/assets/images/factor_sleep.png</key>
+		<data>
+		5HShCQcRFBKVTcMdRQErQLBMMOg=
+		</data>
+		<key>flutter_assets/assets/images/factor_social_support.png</key>
+		<data>
+		anhO5c66HSGkAPfbnG04GCZJAmQ=
+		</data>
+		<key>flutter_assets/assets/images/factor_work_life_balance.png</key>
+		<data>
+		b0kIWTUJAiu2eJqV30jnRxHuxwY=
+		</data>
+		<key>flutter_assets/assets/images/factor_workplace_dynamics.png</key>
+		<data>
+		2gE/KEvXgE6GK1zhxQuEu0+vfAU=
 		</data>
 		<key>flutter_assets/assets/images/login_image.png</key>
 		<data>
@@ -42,7 +78,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		ZG7bGXDc0y9wtFFIxaSU5/FMjSg=
+		lg3lCYcKuZtbBJYohijTb/ryLh8=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -59,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xmyRSXEwe80GxWHtOzGOg6Kc1Lo=
+			UnN5tLURj1xPTcYafL9e6POyqWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			90ysZOfFF+Kl5ZgKJsUh7fxgN4O/PRWwqSe4usZe5tA=
+			h/NG/s8v/mU5CsswLfHuNqnaH3Ga+BO4/g7e4TshN2o=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -86,6 +122,105 @@
 			<key>hash2</key>
 			<data>
 			7q+4xFZNkI3v0J12ZUQHQU+bH5rnDpahIUxtfmEiP7o=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_diet.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o+J2kRhPFH2mGeUad/nTpZ8lIPc=
+			</data>
+			<key>hash2</key>
+			<data>
+			YVxpkuNC76JWTvORR9G0QCS6653Ih4NgovFp5jTsDy4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_exercise.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XZ2vsqmSyrWFZ3aXuo07fH0gn0g=
+			</data>
+			<key>hash2</key>
+			<data>
+			mBatAPuc9/nsniSewxbxVA/7r4FZHp+HBWBbZ3rTMCc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_init_image.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MPSUeQDDPzKRI4g0Z7c1lwZMtII=
+			</data>
+			<key>hash2</key>
+			<data>
+			msHPpgIQ/BNtzaZJMalTVvvm4rKZ1kttM9ReDQ75fO4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_job_demands.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pVv6rIFoh5FZOGYjKa4ixt/0vtE=
+			</data>
+			<key>hash2</key>
+			<data>
+			KOZncIi62pEsk3v4PRz6xDA3Xxxx7X2CxXvnmGrAB3U=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_job_expectation.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Yoqxzd1ujCi6yOVQNNM8qZFenHA=
+			</data>
+			<key>hash2</key>
+			<data>
+			EqK6JHyzNatNcE6xBnnPin9bDfPkvJ8fGf6Hib5xwOc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_sleep.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5HShCQcRFBKVTcMdRQErQLBMMOg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Uoaxw/jqbGOwodDzBMcbkyHKWjbsv9JHj1DAinsgans=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_social_support.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			anhO5c66HSGkAPfbnG04GCZJAmQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			wAGzj/ratR4oZHoAqn4QjIf+3hA1qEvrMd2KCUZnYW8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_work_life_balance.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b0kIWTUJAiu2eJqV30jnRxHuxwY=
+			</data>
+			<key>hash2</key>
+			<data>
+			0LSmIWoiLM4jGM9uvDLJ8pnRszIEk8MBfXBCTaGLf3w=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/factor_workplace_dynamics.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2gE/KEvXgE6GK1zhxQuEu0+vfAU=
+			</data>
+			<key>hash2</key>
+			<data>
+			WHRpFi5K96FiREeQp+CfBdzU7YwyxUstSPFG0fXxow0=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/login_image.png</key>
@@ -147,11 +282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZG7bGXDc0y9wtFFIxaSU5/FMjSg=
+			lg3lCYcKuZtbBJYohijTb/ryLh8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PTR541bdg9Xz8DD+/b2t7HLxVHgw5RlmUyn3Ku1Dang=
+			wLMLO8Ikxw3UaReOa4l1L/NfdNqSny+yuaacPy2rNFo=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

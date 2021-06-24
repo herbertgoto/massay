@@ -2,7 +2,6 @@
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_flutter/amplify.dart';
 import 'package:front_end_amplify/screens/Factors/factors_main_screen.dart';
-import 'package:front_end_amplify/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/widgets/button_widget.dart';
@@ -20,8 +19,6 @@ class EmailConfirmationScreen extends StatelessWidget {
 
   final TextEditingController _confirmationCodeController =
       TextEditingController();
-
-  final _formKey = GlobalKey<FormFieldState>();
 
   @override
   Widget build(BuildContext context) {

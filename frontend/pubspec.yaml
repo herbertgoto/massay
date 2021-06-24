@@ -60,6 +60,17 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/login_image.png
+    - assets/images/factor_init_image.png
+    - assets/images/factor_sleep.png
+    - assets/images/factor_diet.png
+    - assets/images/factor_exercise.png
+    - assets/images/factor_social_support.png
+    - assets/images/factor_work_life_balance.png
+    - assets/images/factor_job_expectation.png
+    - assets/images/factor_workplace_dynamics.png
+    - assets/images/factor_job_demands.png
+
+    
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

@@ -1,38 +1,19 @@
+
 // @dart=2.9
-import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
-import 'package:amplify_flutter/amplify.dart';
 import 'package:flutter/material.dart';
 
-class MainScreen extends StatefulWidget {
-  MainScreen({Key key}) : super(key: key);
+class MainScreen extends StatelessWidget {
 
-  @override
-  _MainScreenState createState() => _MainScreenState();
-}
+  MainScreen({
+    Key key,
+  }) : super(key: key);
 
-class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
-    return FutureBuilder(
-      future: Amplify.Auth.getCurrentUser(),
-      builder: (BuildContext context, AsyncSnapshot<AuthUser> snapshot) {
-        final currentUser = snapshot.data;
-        return Scaffold(
-          appBar: AppBar(
-            title: Text("Main screen"),
-          ),
-          body: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("AWS Amplify"),
-                Text("User ID ${currentUser?.userId}"),
-                Text("User Name ${currentUser?.username}"),
-              ],
-            ),
-          ),
-        );
-      },
+    return Scaffold(
+      appBar: AppBar(),
+      body: Center(child: Text('LLEGUE AL MAIN SCREEN :)')),
     );
   }
+
 }

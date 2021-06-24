@@ -4,7 +4,6 @@ import 'package:amplify_flutter/amplify.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:front_end_amplify/screens/Factors/factors_main_screen.dart';
-import 'package:front_end_amplify/screens/main_screen.dart';
 import 'package:front_end_amplify/screens/signup_screen.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/viewmodels/home_model.dart';

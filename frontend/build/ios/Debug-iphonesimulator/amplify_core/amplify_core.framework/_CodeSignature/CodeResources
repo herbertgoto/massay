@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/amplify_core.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xbP1BuwJ6hyzZdX/pTExhv/Gtrk=
+		sx/WgbWiEYKnQDFkHuYvSYc0Gpc=
 		</data>
 		<key>Modules/amplify_core.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/amplify_core.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		xbP1BuwJ6hyzZdX/pTExhv/Gtrk=
+		sx/WgbWiEYKnQDFkHuYvSYc0Gpc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,11 +121,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xbP1BuwJ6hyzZdX/pTExhv/Gtrk=
+			sx/WgbWiEYKnQDFkHuYvSYc0Gpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kT9zQDjMaWu9xb5RheJULEFKZUxex6fBAIbt1r3yj4w=
+			KmvqVp+l3Bfmc8VnrYpO6dOzLwfAHNiG7KdJfOvjnLE=
 			</data>
 		</dict>
 		<key>Modules/amplify_core.swiftmodule/x86_64.swiftdoc</key>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xbP1BuwJ6hyzZdX/pTExhv/Gtrk=
+			sx/WgbWiEYKnQDFkHuYvSYc0Gpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kT9zQDjMaWu9xb5RheJULEFKZUxex6fBAIbt1r3yj4w=
+			KmvqVp+l3Bfmc8VnrYpO6dOzLwfAHNiG7KdJfOvjnLE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
