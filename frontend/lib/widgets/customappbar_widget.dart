@@ -6,14 +6,15 @@ import 'package:front_end_amplify/shared/globals.dart';
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   final String title;
+  final List<Widget> actions;
   final bool automaticallyImplyLeading;
-  final bool wantIcons;
+
 
   const CustomAppBar({
     Key key,
     this.title,
+    this.actions,
     this.automaticallyImplyLeading,
-    this.wantIcons,
   }) : super(key:key);
 
   @override
@@ -32,8 +33,13 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             fontSize: Global.letterSizeFactorTitle,
           ),
         ),
-      elevation: 0,
+      elevation: 10,
       automaticallyImplyLeading: automaticallyImplyLeading,
+      iconTheme: IconThemeData(
+        color: Colors.blue,
+      ),
+      actions: actions,
     );
   }
+
 }

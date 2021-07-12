@@ -27,6 +27,8 @@ dependencies:
   amplify_auth_cognito: '<1.0.0'
   amplify_api: '<1.0.0'
   provider: ^5.0.0
+  table_calendar: ^3.0.1
+  intl: ^0.17.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -39,6 +41,7 @@ dev_dependencies:
     sdk: flutter
 
   flutter_native_splash: ^1.2.0
+  
 
 # run: flutter clean && flutter pub get && flutter pub run flutter_native_splash:create
 flutter_native_splash:
@@ -71,6 +74,26 @@ flutter:
     - assets/images/factor_workplace_dynamics.png
     - assets/images/factor_job_demands.png
     - assets/images/main_screen.png
+    - assets/images/happy.png
+    - assets/images/neutral.png
+    - assets/images/sad.png
+    - assets/images/skipped.png
+    - assets/images/none.png
+    - assets/images/happy_big.png
+    - assets/images/neutral_big.png
+    - assets/images/sad_big.png
+    - assets/images/skipped_big.png
+    - assets/images/none_big.png
+    - assets/images/sleep.png
+    - assets/images/diet.png
+    - assets/images/dynamics.png
+    - assets/images/expectations.png
+    - assets/images/exercise.png
+    - assets/images/balance.png
+    - assets/images/social.png
+    - assets/images/demands.png
+    - assets/images/check_circle.png
+
 
     
 

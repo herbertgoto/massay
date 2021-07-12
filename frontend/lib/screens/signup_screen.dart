@@ -6,6 +6,7 @@ import 'package:amplify_flutter/amplify.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/viewmodels/home_model.dart';
 import 'package:front_end_amplify/widgets/button_widget.dart';
+import 'package:front_end_amplify/widgets/customappbar_widget.dart';
 import 'package:front_end_amplify/widgets/textfield_widget.dart';
 import 'package:provider/provider.dart';
 
@@ -16,82 +17,82 @@ class SignUpScreen extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
-  final _formKey = GlobalKey<FormState>();
   final _scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   Widget build(BuildContext context) {
-
     final model = Provider.of<HomeModel>(context);
 
     
     return Scaffold(
       key: _scaffoldKey,
-      appBar: AppBar(
-        title: Text('Sign up'),
+      appBar: CustomAppBar(
+        title: 'Sign up',
+        automaticallyImplyLeading: true,
       ),
       backgroundColor: Global.white,
       body: Padding(
         padding: const EdgeInsets.all(30.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: <Widget>[
-            Image(
-              image: AssetImage('assets/images/login_image.png'),
-            ),
-            Center(
-              child: Text(
-                'Cool Message',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Global.letterColor,
-                  fontSize: Global.letterSizeDescription,
-                  fontWeight: FontWeight.w600,
-                ),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: <Widget>[
+                  
+                  Image(
+                    image: AssetImage('assets/images/login_image.png'),
+                  ),
+                  Center(
+                    child: Text(
+                      'Cool Message',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Global.letterColor,
+                        fontSize: Global.letterSizeDescription,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 20.0,
+                  ),
+                  TextFieldWidget(
+                    hintText: 'Email',
+                    obscureText: false,
+                    prefixIconData: Icons.mail_outline,
+                    suffixIconData: model.isValid ? Icons.check : null,
+                    onChanged: (value){
+                      model.isValidEmail(value);
+                    },
+                    controller: _emailController,
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: <Widget>[
+                      TextFieldWidget(
+                        hintText: 'Password',
+                        obscureText: model.isVisible ? false : true,
+                        prefixIconData: Icons.lock_outline,
+                        suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
+                        controller: _passwordController,
+                      ),
+                      SizedBox(
+                        height: 50.0,
+                      ),
+                    ],
+                  ),
+                  ButtonWidget(
+                    title: 'Create Account',
+                    hasBorder: false,
+                    onPressed: () => _createAccountOnPressed(context),
+                  ),
+                  SizedBox(
+                    height: 50.0,
+                  ),
+                ],
               ),
             ),
-            SizedBox(
-              height: 20.0,
-            ),
-            TextFieldWidget(
-              hintText: 'Email',
-              obscureText: false,
-              prefixIconData: Icons.mail_outline,
-              suffixIconData: model.isValid ? Icons.check : null,
-              onChanged: (value){
-                model.isValidEmail(value);
-              },
-              controller: _emailController,
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[
-                TextFieldWidget(
-                  hintText: 'Password',
-                  obscureText: model.isVisible ? false : true,
-                  prefixIconData: Icons.lock_outline,
-                  suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
-                  controller: _passwordController,
-                ),
-                SizedBox(
-                  height: 50.0,
-                ),
-              ],
-            ),
-            ButtonWidget(
-              title: 'Create Account',
-              hasBorder: false,
-              onPressed: () => _createAccountOnPressed(context),
-            ),
-            SizedBox(
-              height: 50.0,
-            ),
-          ],
-        ),
-      ),
     );
   }
 

@@ -8,6 +8,8 @@ class Global {
   static const Color letterColor = const Color(0xff0e0e0e);
   static const Color sleepColor = const Color(0xff8fdbe3);
   static const Color sliderColor = const Color(0xffcccccc);
+  static const Color calendarSelectedColor = const Color(0xffa9cbda);
+  
 
   //Factor colors
   static const Color factorSleepColor = const Color(0xff5d9888);
@@ -18,6 +20,16 @@ class Global {
   static const Color factorJobExpectationColor = const Color(0xff90f4bc);
   static const Color factorWorkPlaceDynamicsColor = const Color(0xff8f9abd);
   static const Color factorJobDemandsColor = const Color(0xff874c65);
+
+  //Factor name
+  static const String factorSleepName = 'Sleep';
+  static const String factorDietName = 'Diet';
+  static const String factorJobExpectationName = 'Expectations';
+  static const String factorExerciseName = 'Exercise';
+  static const String factorSocialSupportName = 'Social';
+  static const String factorWorkPlaceDynamicsName = 'Dynamics';
+  static const String factorWorkLifeBalanceName = 'Work-life balnce';
+  static const String factorJobDemandsName = 'Demands';
 
   //Slider letter colors
   static const Color letterSlideColor = const Color(0xff333333);
@@ -30,10 +42,16 @@ class Global {
   static const double letterSizeFactorTitle = 30.0;
   static const double letterSizeDescription = 20.0;
   static const double letterSizeFactorsMain = 32.0;
+  static const double letterSizeCalendarYear = 26.0;
+  static const double letterSizeCalendarDay = 18.0;
+  static const double letterSizeCalendarDayStr = 14.0;
+  static const double letterSizeCompleteSurvey = 28.0;
+  static const double letterSizeCompleteDescription = 24.0;
 
 
   //String Fonts
   static const String sFProText = 'SF Pro Text';
+  static const String sFProItalicText = 'SF Pro Text';
 
 
   //String Factors
@@ -55,6 +73,8 @@ class Global {
   static const String stringWorkplaceDynamicsMessage = 'Recognizing each person’s style of work, motivation and level of aptitude can lead to a better understanding and contribution of the group goals';
   static const String stringJobDemandsQuestion = 'How much does Job demands affect your health?';
   static const String stringJobDemandsMessage = 'Autonomy, right tools, flexibility among others are fundamental to determine if your workplace is the right place to grow';
-  
+  static const String stringMainMessage = 'Autonomy, right tools, flexibility among others are fundamental to determine if your workplace is the right place to grow';
 
+  //String Message
+  static const String stringSurveyNoAnswerMessage = 'No Data for this day';
 }

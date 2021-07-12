@@ -20,103 +20,102 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final model = Provider.of<HomeModel>(context);
 
     return Scaffold(
       backgroundColor: Global.white,
-      body: Padding(
-        padding: const EdgeInsets.all(30.0),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: <Widget>[
-            Image(
-              image: AssetImage('assets/images/login_image.png'),
-            ),
-            Center(
-              child: Text(
-                'Welcome message',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Global.letterColor,
-                  fontSize: Global.letterSizeDescription,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            Center(
-              child: Text(
-                'Burnout detection app... text. message description about the survey',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Global.letterColor,
-                  fontSize: Global.letterSizeDescription,
-                  fontWeight: FontWeight.w300,
-                ),
-              ),
-            ),
-            SizedBox(
-              height: 50.0,
-            ),
-            TextFieldWidget(
-              hintText: 'Email',
-              obscureText: false,
-              prefixIconData: Icons.mail_outline,
-              suffixIconData: model.isValid ? Icons.check : null,
-              onChanged: (value){
-                model.isValidEmail(value);
-              },
-              controller: _emailController,
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
+      body:  Padding(
+            padding: const EdgeInsets.all(30.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
+                Image(
+                  image: AssetImage('assets/images/login_image.png'),
+                ),
+                Center(
+                  child: Text(
+                    'Welcome message',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Global.letterColor,
+                      fontSize: Global.letterSizeDescription,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                Center(
+                  child: Text(
+                    'Burnout detection app... text. message description about the survey',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Global.letterColor,
+                      fontSize: Global.letterSizeDescription,
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 50.0,
+                ),
                 TextFieldWidget(
-                  hintText: 'Password',
-                  obscureText: model.isVisible ? false : true,
-                  prefixIconData: Icons.lock_outline,
-                  suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
-                  controller: _passwordController,
+                  hintText: 'Email',
+                  obscureText: false,
+                  prefixIconData: Icons.mail_outline,
+                  suffixIconData: model.isValid ? Icons.check : null,
+                  onChanged: (value){
+                    model.isValidEmail(value);
+                  },
+                  controller: _emailController,
                 ),
                 SizedBox(
                   height: 10.0,
                 ),
-                Text(
-                  'Forgot password?',
-                  style: TextStyle(
-                    color: Global.mediumBlue,
-                  ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: <Widget>[
+                    TextFieldWidget(
+                      hintText: 'Password',
+                      obscureText: model.isVisible ? false : true,
+                      prefixIconData: Icons.lock_outline,
+                      suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
+                      controller: _passwordController,
+                    ),
+                    SizedBox(
+                      height: 10.0,
+                    ),
+                    Text(
+                      'Forgot password?',
+                      style: TextStyle(
+                        color: Global.mediumBlue,
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(
+                  height: 20.0,
+                ),
+                ButtonWidget(
+                  title: 'Login',
+                  hasBorder: false,
+                  onPressed: () => _loginButtonOnPressed(context),
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                ButtonWidget(
+                  title: 'Sign Up',
+                  hasBorder: true,
+                  onPressed: () => _gotoSignUpScreen(context),
+                ),
+                SizedBox(
+                  height: 50.0,
                 ),
               ],
             ),
-            SizedBox(
-              height: 20.0,
-            ),
-            ButtonWidget(
-              title: 'Login',
-              hasBorder: false,
-              onPressed: () => _loginButtonOnPressed(context),
-            ),
-            SizedBox(
-              height: 10.0,
-            ),
-            ButtonWidget(
-              title: 'Sign Up',
-              hasBorder: true,
-              onPressed: () => _gotoSignUpScreen(context),
-            ),
-            SizedBox(
-              height: 50.0,
-            ),
-          ],
-        ),
-      ),
+          ),
     );
   }
 

@@ -14,67 +14,66 @@ class FactorsMainScreen extends StatelessWidget {
       appBar: CustomAppBar(
         title: 'Factors',
         automaticallyImplyLeading: false,
-        wantIcons: false,
       ),
       backgroundColor: Global.white,
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Form(
-          child: Column(
-            children: [
-              SizedBox(
-                height: 100.0,
-              ),
-              Text(
-                Global.stringFactorsInitialMessage,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Global.letterColor,
-                  fontSize: Global.letterSizeFactorsMain,
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
-              Container(
-                transform: Matrix4.translationValues(0.0, -50.0, 0.0),
-                child: Image(
-                  image: AssetImage('assets/images/factor_init_image.png'),
-                ),
-              ),
-              Container(
-                transform: Matrix4.translationValues(0.0, -100.0, 0.0),
-                child: Text(
-                  Global.stringInitialMessage,
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Global.letterColor,
-                    fontSize: Global.letterSizeFactorQuestion,
-                    fontWeight: FontWeight.w400,
-                    fontFamily: Global.sFProText,
+            child: Form(
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 100.0,
                   ),
-                ),
-              ),
-              SizedBox(
-                height: 50.0,
-              ),
-              Container(
-                child: ButtonBar(
-                  alignment: MainAxisAlignment.end,
-                  mainAxisSize: MainAxisSize.max,
-                  children: <Widget>[
-                    Container(
-                      width: 150,
-                      child: ButtonWidget(
-                        title: 'Next   >',
-                        hasBorder: false,
-                        onPressed: () => _gotoFactorsQuestion(context),
+                  Text(
+                    Global.stringFactorsInitialMessage,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Global.letterColor,
+                      fontSize: Global.letterSizeFactorsMain,
+                      fontWeight: FontWeight.w400,
+                    ),
+                  ),
+                  Container(
+                    transform: Matrix4.translationValues(0.0, -50.0, 0.0),
+                    child: Image(
+                      image: AssetImage('assets/images/factor_init_image.png'),
+                    ),
+                  ),
+                  Container(
+                    transform: Matrix4.translationValues(0.0, -100.0, 0.0),
+                    child: Text(
+                      Global.stringInitialMessage,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Global.letterColor,
+                        fontSize: Global.letterSizeFactorQuestion,
+                        fontWeight: FontWeight.w400,
+                        fontFamily: Global.sFProText,
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                  SizedBox(
+                    height: 50.0,
+                  ),
+                  Container(
+                    child: ButtonBar(
+                      alignment: MainAxisAlignment.end,
+                      mainAxisSize: MainAxisSize.max,
+                      children: <Widget>[
+                        Container(
+                          width: 150,
+                          child: ButtonWidget(
+                            title: 'Next   >',
+                            hasBorder: false,
+                            onPressed: () => _gotoFactorsQuestion(context),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
               ),
-            ],
-          ),
-        ),
+            ),
       ),
     );
   }
