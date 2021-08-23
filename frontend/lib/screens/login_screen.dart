@@ -34,7 +34,7 @@ class LoginScreen extends StatelessWidget {
                 ),
                 Center(
                   child: Text(
-                    'Welcome message',
+                    'Welcome to Massay',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Global.letterColor,
@@ -48,7 +48,7 @@ class LoginScreen extends StatelessWidget {
                 ),
                 Center(
                   child: Text(
-                    'Burnout detection app... text. message description about the survey',
+                    'Your tool for the early detection of \n job burnout',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Global.letterColor,

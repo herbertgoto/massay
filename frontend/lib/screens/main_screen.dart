@@ -1,7 +1,7 @@
 // @dart=2.9
 import 'package:flutter/material.dart';
 import 'package:front_end_amplify/screens/calendar_screen.dart';
-import 'package:front_end_amplify/screens/survey_screen.dart';
+import 'package:front_end_amplify/screens/survey.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/widgets/button_widget.dart';
 import 'package:front_end_amplify/widgets/customappbar_widget.dart';
@@ -12,21 +12,20 @@ import 'package:table_calendar/table_calendar.dart';
 
 class MainScreen extends StatelessWidget {
   final DateTime selectedDay;
-  final bool hasAnswer;
   final int mentalHealthStatusDay = _askMentalHealthStatusDay();
 
   MainScreen({
     Key key,
     this.selectedDay,
-    this.hasAnswer,
   }) : super(key: key);
+
+  static int _askMentalHealthStatusDay() {
+    //TODO Connect Data Base
+    return 0;
+  }
 
   @override
   Widget build(BuildContext context) {
-    //TODO
-    // DateTime today;
-    // bool isSelectedDay = selectedDay == null;
-    // if(isSelectedDay) today = DateTime.now();
 
     return Scaffold(
       drawer: NavigationDrawerWidget(),
@@ -45,7 +44,7 @@ class MainScreen extends StatelessWidget {
         Material(
           child: CustomCalendar(
             format: CalendarFormat.week,
-            hasAnswer: hasAnswer,
+            selectDay: selectedDay,
           ),
         ),
         Material(
@@ -72,51 +71,59 @@ class MainScreen extends StatelessWidget {
         height: 20,
       ),
     );
-    if (hasAnswer) {
-      list.add(Padding(
-        padding: const EdgeInsets.all(10.0),
-        child: FactorMeasure(),
-      ));
-      list.add(
-        SizedBox(
-          height: 20,
-        ),
-      );
-      list.add((() {
-        return _assestText();
-      }()));
+    if (_askMentalHealthStatusDay() != -1) {
+      addAnswerDailySurvey(list);
     } else {
-      list.add(Padding(
-        padding: const EdgeInsets.all(30.0),
-        child: Column(children: <Widget>[
-          SizedBox(
-            height: 20,
-          ),
-          Text(
-            Global.stringSurveyNoAnswerMessage,
-            style: TextStyle(
-              fontSize: Global.letterSizeFactorTitle,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          SizedBox(
-            height: 80,
-          ),
-          ButtonWidget(
-            title: 'Answer Daily Survey',
-            hasBorder: false,
-            onPressed: () => _survey(context),
-          ),
-        ]),
-      ));
+      addNoAnswerDailysurveyUI(list, context);
     }
     return Column(
       children: list,
     );
   }
 
+  void addAnswerDailySurvey(List<Widget> list) {
+    list.add(Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: FactorMeasure(),
+    ));
+    list.add(
+      SizedBox(
+        height: 20,
+      ),
+    );
+    list.add((() {
+      return _assestText();
+    }()));
+  }
+
+  void addNoAnswerDailysurveyUI(List<Widget> list, BuildContext context) {
+    list.add(Padding(
+      padding: const EdgeInsets.all(30.0),
+      child: Column(children: <Widget>[
+        SizedBox(
+          height: 20,
+        ),
+        Text(
+          Global.stringSurveyNoAnswerMessage,
+          style: TextStyle(
+            fontSize: Global.letterSizeFactorTitle,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        SizedBox(
+          height: 80,
+        ),
+        ButtonWidget(
+          title: 'Answer Daily Survey',
+          hasBorder: false,
+          onPressed: () => _survey(context),
+        ),
+      ]),
+    ));
+  }
+
   AssetImage _assestImage() {
-    if (hasAnswer)
+    if (mentalHealthStatusDay != -1)
       return mentalHealthStatusDayImage();
     else
       return AssetImage('assets/images/none_big.png');
@@ -157,13 +164,8 @@ class MainScreen extends StatelessWidget {
     Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (_) => Calendar(hasAnswer: hasAnswer),
+          builder: (_) => Calendar(),
         ));
-  }
-
-  static int _askMentalHealthStatusDay() {
-    //TODO Connect Data Base
-    return 0;
   }
 
   void _survey(BuildContext context) {
