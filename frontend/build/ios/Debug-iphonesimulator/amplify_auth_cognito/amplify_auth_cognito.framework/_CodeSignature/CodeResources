@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/amplify_auth_cognito-Swift.h</key>
 		<data>
-		VReoiTcCwDzIlTjJ6J2IO+vrCcw=
+		xHCqv5Eef5kl4plN8MXziKL8dg8=
 		</data>
 		<key>Headers/amplify_auth_cognito-umbrella.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZUbo4IGhNCYfuJtD0Bhb0VDDjJ4=
+		WY7XLuaA2L+g4jHxw7RYQFdtBII=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		9cKPyrGCqygtnqe76Nq/y9he6mQ=
+		aKK4Fl90VhoTICx4qsR2wOsIkwA=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		9cKPyrGCqygtnqe76Nq/y9he6mQ=
+		aKK4Fl90VhoTICx4qsR2wOsIkwA=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		L+rj9F3Iqs/2Q/FCpdyhr927vPE=
+		y9GSu0nTvcN/GLho/TD5wUrtsnQ=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/jlU92TdeyHYXVLA5qkbEXbbTL8=
+		DMiL4/7nIswwA/IXOCsgJlwSf60=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		L+rj9F3Iqs/2Q/FCpdyhr927vPE=
+		y9GSu0nTvcN/GLho/TD5wUrtsnQ=
 		</data>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		/jlU92TdeyHYXVLA5qkbEXbbTL8=
+		DMiL4/7nIswwA/IXOCsgJlwSf60=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDP4d5cq+RGlWQRglC335ur415PflmvwECeDTac6n5I=
+			oSU3xrezCkzMvD/3T9xSYaiYGN4Obo9mYJHvskZ6ws8=
 			</data>
 		</dict>
 		<key>Headers/amplify_auth_cognito-umbrella.h</key>
@@ -76,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eDKzLl5x7/4793pg46Vvqkty2TIQvX7QLaeeGv9rVrE=
+			Q9SjFsOpUBXRh/TcUFPvScG5Eof2NzeY7N+HlNHE6wY=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eDKzLl5x7/4793pg46Vvqkty2TIQvX7QLaeeGv9rVrE=
+			Q9SjFsOpUBXRh/TcUFPvScG5Eof2NzeY7N+HlNHE6wY=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrtleJu31REuHhwMYyq6JvH4I9rwRIATQcfwIuqkMY0=
+			0orlAg8p+Dm2f+kVY2D7BMabaVNgF2srvphjmuQmLBE=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6f6Nxhuspgw6Qbw9LfCqrBROjMJGocY0w3jGstMSWyA=
+			Ajiwvbk4buq7zDugWsZRhg38iNIBeI1Tqz19/Wx6q+I=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YrtleJu31REuHhwMYyq6JvH4I9rwRIATQcfwIuqkMY0=
+			0orlAg8p+Dm2f+kVY2D7BMabaVNgF2srvphjmuQmLBE=
 			</data>
 		</dict>
 		<key>Modules/amplify_auth_cognito.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6f6Nxhuspgw6Qbw9LfCqrBROjMJGocY0w3jGstMSWyA=
+			Ajiwvbk4buq7zDugWsZRhg38iNIBeI1Tqz19/Wx6q+I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/amplify_flutter-Swift.h</key>
 		<data>
-		IY0CVDwIIANmEWcjXGIWdkk2VSI=
+		V46su+MAbG3ouJj6iRI7vQGo91I=
 		</data>
 		<key>Headers/amplify_flutter-umbrella.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cMK9GedgGgaKLcpWaldXT90/PGo=
+		hWxK4ItarE6B/e9NrOBV+f5uyQE=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		3vSgemvJRtnEokcW0a5o1YIZTBk=
+		pvTPG5w5p2LawWcfMyb767M8KIg=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		3vSgemvJRtnEokcW0a5o1YIZTBk=
+		pvTPG5w5p2LawWcfMyb767M8KIg=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		X5utsBoEoZ6FkTfEcklMIVJxNos=
+		/LPPv57L2jCkgq4+n5w7IY9x5Ls=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZWS8wH+7RkmCHQ+lWSjpEyWKw+o=
+		TqsnTJIAxGJEQoHAZglYC9+5tLA=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		X5utsBoEoZ6FkTfEcklMIVJxNos=
+		/LPPv57L2jCkgq4+n5w7IY9x5Ls=
 		</data>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ZWS8wH+7RkmCHQ+lWSjpEyWKw+o=
+		TqsnTJIAxGJEQoHAZglYC9+5tLA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N5eHx1RUlRgWuKnT+HjXQWLtKMRzbMCmLS3WlqTGFs4=
+			klmfcCfdUnBxT4dEA/Zf6QZji3bS6XMeIvFhfzzTDTk=
 			</data>
 		</dict>
 		<key>Headers/amplify_flutter-umbrella.h</key>
@@ -76,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdywoGWiLofqaVFIokziQddhGXb3tZSEQ5ugKeYbiR4=
+			moWkmdFoYAGf7eiIoMyqTGwE3+qQCVkqmdflcfizgMY=
 			</data>
 		</dict>
 		<key>Modules/amplify_flutter.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pdywoGWiLofqaVFIokziQddhGXb3tZSEQ5ugKeYbiR4=
+			moWkmdFoYAGf7eiIoMyqTGwE3+qQCVkqmdflcfizgMY=
 			</data>
 		</dict>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTva6EQh/1JtXFRtJRnwj36CIatUNMo59JZNQ3vDuOQ=
+			jI5FeKuvFa3rWFvtizGbIf8HV5LDJiPtLpy9OOJ3FlM=
 			</data>
 		</dict>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bYfzTRMgGNxYd/i/yyuls7d3gmeuaK3uVK597kis68Y=
+			5w5Iz4T+QBGreBmuULcOLP9uAYYRcp73iHh1FImSKfQ=
 			</data>
 		</dict>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WTva6EQh/1JtXFRtJRnwj36CIatUNMo59JZNQ3vDuOQ=
+			jI5FeKuvFa3rWFvtizGbIf8HV5LDJiPtLpy9OOJ3FlM=
 			</data>
 		</dict>
 		<key>Modules/amplify_flutter.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bYfzTRMgGNxYd/i/yyuls7d3gmeuaK3uVK597kis68Y=
+			5w5Iz4T+QBGreBmuULcOLP9uAYYRcp73iHh1FImSKfQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

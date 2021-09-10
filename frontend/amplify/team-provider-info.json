@@ -34,5 +34,23 @@
         "frontendamplifyb9cae520": {}
       }
     }
+  },
+  "frontmassa": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frontendamplify-frontmassa-100729-authRole",
+      "UnauthRoleArn": "arn:aws:iam::414550545398:role/amplify-frontendamplify-frontmassa-100729-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::414550545398:role/amplify-frontendamplify-frontmassa-100729-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frontendamplify-frontmassa-100729-deployment",
+      "UnauthRoleName": "amplify-frontendamplify-frontmassa-100729-unauthRole",
+      "StackName": "amplify-frontendamplify-frontmassa-100729",
+      "StackId": "arn:aws:cloudformation:us-east-1:414550545398:stack/amplify-frontendamplify-frontmassa-100729/01af2ae0-04ed-11ec-b976-125ba4d329dd",
+      "AmplifyAppId": "d2lkl50pii30z4"
+    },
+    "categories": {
+      "auth": {
+        "frontendamplifyb9cae520": {}
+      }
+    }
   }
 }

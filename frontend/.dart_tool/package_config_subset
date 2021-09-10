@@ -134,6 +134,10 @@ provider
 2.12
 file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0/
 file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0/lib/
+responsive_framework
+2.12
+file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_framework-0.1.4/
+file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/responsive_framework-0.1.4/lib/
 simple_gesture_detector
 2.12
 file:///Applications/flutter/.pub-cache/hosted/pub.dartlang.org/simple_gesture_detector-0.2.0/

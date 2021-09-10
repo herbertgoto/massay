@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ObjectMapper-Swift.h</key>
 		<data>
-		k7QlHSS5DgMzo/SVTGmrVf7V5Oo=
+		Ta5PJO11DjyiQ82dL/3QNf89ee8=
 		</data>
 		<key>Headers/ObjectMapper-umbrella.h</key>
 		<data>
@@ -14,79 +14,79 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6CcFqcOxZigMp6Wct1OJ8df6X/o=
+		LFn+L7jNyMuTveoDRhbrAFdDrI0=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jXe6WjqgPRlfSSAOm2yIh/35qF4=
+		ndE8tEp7l1Fl3s8ICkiRQlNstrs=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		jXe6WjqgPRlfSSAOm2yIh/35qF4=
+		ndE8tEp7l1Fl3s8ICkiRQlNstrs=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		kHwi8L6jgx+331NDD9DTWlLco9o=
+		3Aw1B8C9DrBrBWRZsq3Ut/t87Wo=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		kHwi8L6jgx+331NDD9DTWlLco9o=
+		3Aw1B8C9DrBrBWRZsq3Ut/t87Wo=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		kLYJhwOXO9j3JF6+HrAsps4AUV0=
+		fagGbGClPpqMdn5FjMjQ3iAlRLo=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		kLYJhwOXO9j3JF6+HrAsps4AUV0=
+		fagGbGClPpqMdn5FjMjQ3iAlRLo=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vGPxvjwYSnNgOEfdbFMtyXDvA0E=
+		OHaG/MIbc6SJ0oW9KpnHgOpw5Ek=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GxBMUaXfO4MQpWcIg9eBiUk+rb8=
+		PMWcjrxs861oWHFmMeIx4RQ33Gg=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		vGPxvjwYSnNgOEfdbFMtyXDvA0E=
+		OHaG/MIbc6SJ0oW9KpnHgOpw5Ek=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GxBMUaXfO4MQpWcIg9eBiUk+rb8=
+		PMWcjrxs861oWHFmMeIx4RQ33Gg=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RPUbbFOYHrLeIhtdfWcyaBJZftI=
+		/1CwmViETnRCXKVRQMXxTskNG70=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		06Ykx6HXrx2EKhPzoxfId/0sdpM=
+		fLWVIzVnkOYngmmJh7ow1cyqSLc=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftdoc</key>
 		<data>
-		RPUbbFOYHrLeIhtdfWcyaBJZftI=
+		/1CwmViETnRCXKVRQMXxTskNG70=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftmodule</key>
 		<data>
-		06Ykx6HXrx2EKhPzoxfId/0sdpM=
+		fLWVIzVnkOYngmmJh7ow1cyqSLc=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Y7TU/4hPwOmPRSzSVvH7aq/KsKU=
+		S2dsAdC41y2I87bq7XYdc3EqXhM=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1a9RbrFndmSkJcCa22KtGvczLlc=
+		2ona2vNC9uB7cWkeRVyAuC7fGaY=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Y7TU/4hPwOmPRSzSVvH7aq/KsKU=
+		S2dsAdC41y2I87bq7XYdc3EqXhM=
 		</data>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1a9RbrFndmSkJcCa22KtGvczLlc=
+		2ona2vNC9uB7cWkeRVyAuC7fGaY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k7QlHSS5DgMzo/SVTGmrVf7V5Oo=
+			Ta5PJO11DjyiQ82dL/3QNf89ee8=
 			</data>
 			<key>hash2</key>
 			<data>
-			iSPMNgkIGaDnfckJ1ZrZkMRiB6T8qmZ4JeONrajXMH0=
+			MyTsicLjWelVISzv6tQdhhXEnBY8YadEU5EEi98FQw8=
 			</data>
 		</dict>
 		<key>Headers/ObjectMapper-umbrella.h</key>
@@ -121,198 +121,198 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jXe6WjqgPRlfSSAOm2yIh/35qF4=
+			ndE8tEp7l1Fl3s8ICkiRQlNstrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tYuhynMAtW3fYOkfvfjHpxK4S6rpoe+1wz+3AZQ/SEY=
+			T9+pALueD9Cd3ZY373Z7p3GKJXIXPMa11Gg46u3tFWM=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jXe6WjqgPRlfSSAOm2yIh/35qF4=
+			ndE8tEp7l1Fl3s8ICkiRQlNstrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tYuhynMAtW3fYOkfvfjHpxK4S6rpoe+1wz+3AZQ/SEY=
+			T9+pALueD9Cd3ZY373Z7p3GKJXIXPMa11Gg46u3tFWM=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kHwi8L6jgx+331NDD9DTWlLco9o=
+			3Aw1B8C9DrBrBWRZsq3Ut/t87Wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HUQ3Z8+hBY1C2LZp4Nad6eTEqiZLbqAQIBny4MslujU=
+			axPs7OXpr2lL+QEYY4cSiQIxktbk9vWtGkpJiSEpyNk=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kHwi8L6jgx+331NDD9DTWlLco9o=
+			3Aw1B8C9DrBrBWRZsq3Ut/t87Wo=
 			</data>
 			<key>hash2</key>
 			<data>
-			HUQ3Z8+hBY1C2LZp4Nad6eTEqiZLbqAQIBny4MslujU=
+			axPs7OXpr2lL+QEYY4cSiQIxktbk9vWtGkpJiSEpyNk=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kLYJhwOXO9j3JF6+HrAsps4AUV0=
+			fagGbGClPpqMdn5FjMjQ3iAlRLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3dPR7wOeBrgZ15V8bzKEOgOrkXeGz/5uhTLpCUcGqPA=
+			N9LS8K3LHkMR210XL7hQuuTzHCgVjf6C0/z3smLJCf8=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kLYJhwOXO9j3JF6+HrAsps4AUV0=
+			fagGbGClPpqMdn5FjMjQ3iAlRLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			3dPR7wOeBrgZ15V8bzKEOgOrkXeGz/5uhTLpCUcGqPA=
+			N9LS8K3LHkMR210XL7hQuuTzHCgVjf6C0/z3smLJCf8=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vGPxvjwYSnNgOEfdbFMtyXDvA0E=
+			OHaG/MIbc6SJ0oW9KpnHgOpw5Ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			+lL6fpRAJ15O+Wm+JqphPBYKWzRijGk8ailTaX3ljX4=
+			1PluPEbqteqeJ1UUEInJTXlBNKkGUROdxSpZmPoZme4=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GxBMUaXfO4MQpWcIg9eBiUk+rb8=
+			PMWcjrxs861oWHFmMeIx4RQ33Gg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W1W6CmNVWqn8DYacvqTQdREs0mFHpcOli82vwL+add8=
+			kgMBRBmI9yrzV4RBFVo1uPCz8We3Z5loqKUXRJpwyFo=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vGPxvjwYSnNgOEfdbFMtyXDvA0E=
+			OHaG/MIbc6SJ0oW9KpnHgOpw5Ek=
 			</data>
 			<key>hash2</key>
 			<data>
-			+lL6fpRAJ15O+Wm+JqphPBYKWzRijGk8ailTaX3ljX4=
+			1PluPEbqteqeJ1UUEInJTXlBNKkGUROdxSpZmPoZme4=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GxBMUaXfO4MQpWcIg9eBiUk+rb8=
+			PMWcjrxs861oWHFmMeIx4RQ33Gg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W1W6CmNVWqn8DYacvqTQdREs0mFHpcOli82vwL+add8=
+			kgMBRBmI9yrzV4RBFVo1uPCz8We3Z5loqKUXRJpwyFo=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RPUbbFOYHrLeIhtdfWcyaBJZftI=
+			/1CwmViETnRCXKVRQMXxTskNG70=
 			</data>
 			<key>hash2</key>
 			<data>
-			3AXxOx4fCuNteBn9JiDFawzO1Ouf8o9jVc2tMQbCiwc=
+			YtJUTHheBcNpKkCX205WsTnX7AnraiQKCb3DZvp3Jn4=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			06Ykx6HXrx2EKhPzoxfId/0sdpM=
+			fLWVIzVnkOYngmmJh7ow1cyqSLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jAEVIMxYVvrwXW7i8PqQJbnvgBF8xpn1JOw1Ki3/96c=
+			C7imiCM0c0K3AIwjx3tLw0tEbKEZFSaPtMDJPQJFhrQ=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RPUbbFOYHrLeIhtdfWcyaBJZftI=
+			/1CwmViETnRCXKVRQMXxTskNG70=
 			</data>
 			<key>hash2</key>
 			<data>
-			3AXxOx4fCuNteBn9JiDFawzO1Ouf8o9jVc2tMQbCiwc=
+			YtJUTHheBcNpKkCX205WsTnX7AnraiQKCb3DZvp3Jn4=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			06Ykx6HXrx2EKhPzoxfId/0sdpM=
+			fLWVIzVnkOYngmmJh7ow1cyqSLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			jAEVIMxYVvrwXW7i8PqQJbnvgBF8xpn1JOw1Ki3/96c=
+			C7imiCM0c0K3AIwjx3tLw0tEbKEZFSaPtMDJPQJFhrQ=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y7TU/4hPwOmPRSzSVvH7aq/KsKU=
+			S2dsAdC41y2I87bq7XYdc3EqXhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzUOy97T+WBn2HifqqZ8b85S++NEWFzvqF+K9zVN68M=
+			VsFD9A8rjyoi3z+bQn+PglkIKq6tC2ZQnBTszMtMATk=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1a9RbrFndmSkJcCa22KtGvczLlc=
+			2ona2vNC9uB7cWkeRVyAuC7fGaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7na3Kvrk3rAifubSxoPSFRcIR3Vi0ZaZXVPmtBd9ZZ8=
+			VXPzJAmIUIuTFJllRYAToHrhPG3YIHc3zTuKSEAm8ug=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y7TU/4hPwOmPRSzSVvH7aq/KsKU=
+			S2dsAdC41y2I87bq7XYdc3EqXhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzUOy97T+WBn2HifqqZ8b85S++NEWFzvqF+K9zVN68M=
+			VsFD9A8rjyoi3z+bQn+PglkIKq6tC2ZQnBTszMtMATk=
 			</data>
 		</dict>
 		<key>Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1a9RbrFndmSkJcCa22KtGvczLlc=
+			2ona2vNC9uB7cWkeRVyAuC7fGaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7na3Kvrk3rAifubSxoPSFRcIR3Vi0ZaZXVPmtBd9ZZ8=
+			VXPzJAmIUIuTFJllRYAToHrhPG3YIHc3zTuKSEAm8ug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

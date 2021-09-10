@@ -8,5 +8,10 @@
     "configLevel": "project",
     "useProfile": true,
     "profileName": "default"
+  },
+  "frontmassa": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "default"
   }
 }

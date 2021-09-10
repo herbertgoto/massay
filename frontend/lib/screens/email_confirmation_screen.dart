@@ -1,7 +1,7 @@
 // @dart=2.9
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:amplify_flutter/amplify.dart';
-import 'package:front_end_amplify/screens/Factors/factors_main_screen.dart';
+import 'package:front_end_amplify/screens/factors_starts_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/widgets/button_widget.dart';

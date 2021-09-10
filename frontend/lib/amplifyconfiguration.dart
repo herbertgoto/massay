@@ -12,29 +12,21 @@ const amplifyconfig = ''' {
                 "CredentialsProvider": {
                     "CognitoIdentity": {
                         "Default": {
-                            "PoolId": "us-east-1:6043b5a5-77b0-42a7-a86b-628cc46cbdca",
+                            "PoolId": "us-east-1:0ac4e911-efaa-4caf-b039-4e7b6051b823",
                             "Region": "us-east-1"
                         }
                     }
                 },
                 "CognitoUserPool": {
                     "Default": {
-                        "PoolId": "us-east-1_PTaXhifKe",
-                        "AppClientId": "46b0b72eacktp0sdljp6at1lvp",
+                        "PoolId": "us-east-1_9VvIWA9pS",
+                        "AppClientId": "3f2818rtuddk0ahrmpj9dscntu",
                         "Region": "us-east-1"
                     }
                 },
                 "Auth": {
                     "Default": {
                         "authenticationFlowType": "USER_SRP_AUTH"
-                    }
-                },
-                "AppSync": {
-                    "Default": {
-                        "ApiUrl": "https://rtci2k2d2be6picyhskrphalea.appsync-api.us-east-1.amazonaws.com/graphql",
-                        "Region": "us-east-1",
-                        "AuthMode": "AMAZON_COGNITO_USER_POOLS",
-                        "ClientDatabasePrefix": "frontendamplify_AMAZON_COGNITO_USER_POOLS"
                     }
                 }
             }
