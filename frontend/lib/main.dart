@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:front_end_amplify/screens/factor_screen.dart';
 import 'package:front_end_amplify/screens/factorupdate_screen.dart';
 import 'package:front_end_amplify/screens/login_screen.dart';
+import 'package:front_end_amplify/screens/main_screen.dart';
 import 'package:front_end_amplify/shared/globals.dart';
 import 'package:front_end_amplify/viewmodels/home_model.dart';
 import 'package:provider/provider.dart';
