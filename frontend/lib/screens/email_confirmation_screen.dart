@@ -91,6 +91,6 @@ class EmailConfirmationScreen extends StatelessWidget {
   }
 
   void _gotoMainScreen(BuildContext context) {
-    Navigator.push(context, MaterialPageRoute(builder: (_) => FactorsMainScreen()));
+    Navigator.push(context, MaterialPageRoute(builder: (_) => InitFactorSurvey()));
   }
 }

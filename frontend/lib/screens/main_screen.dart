@@ -30,7 +30,7 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
       drawer: NavigationDrawerWidget(),
       appBar: CustomAppBar(
-        title: 'Massay',
+        title: Global.mainScreenTitle,
         actions: [
           IconButton(
             icon: Icon(Icons.calendar_today_rounded),
@@ -40,17 +40,19 @@ class MainScreen extends StatelessWidget {
         automaticallyImplyLeading: true,
       ),
       backgroundColor: Global.white,
-      body: Column(children: <Widget>[
-        Material(
-          child: CustomCalendar(
-            format: CalendarFormat.week,
-            selectDay: selectedDay,
+      body: SingleChildScrollView(
+        child: Column(children: <Widget>[
+          Material(
+            child: CustomCalendar(
+              format: CalendarFormat.week,
+              selectDay: selectedDay,
+            ),
           ),
-        ),
-        Material(
-          child: _resultFactors(context),
-        ),
-      ]),
+          Material(
+            child: _resultFactors(context),
+          ),
+        ]),
+      ),
     );
   }
 
@@ -104,17 +106,17 @@ class MainScreen extends StatelessWidget {
           height: 20,
         ),
         Text(
-          Global.stringSurveyNoAnswerMessage,
+          Global.mainScreenNoAnswerTitle,
           style: TextStyle(
-            fontSize: Global.letterSizeFactorTitle,
-            fontWeight: FontWeight.bold,
+            fontSize: Global.mainScreenNoAnswerTitleSize,
+            fontWeight: Global.mainScreenNoAnswerTitleFontWeight,
           ),
         ),
         SizedBox(
           height: 80,
         ),
         ButtonWidget(
-          title: 'Answer Daily Survey',
+          title: Global.mainScreenButtonAnswerSurvey,
           hasBorder: false,
           onPressed: () => _survey(context),
         ),
@@ -126,21 +128,21 @@ class MainScreen extends StatelessWidget {
     if (mentalHealthStatusDay != -1)
       return mentalHealthStatusDayImage();
     else
-      return AssetImage('assets/images/none_big.png');
+      return AssetImage(Global.mainScreenNoneBigImageURL);
   }
 
   AssetImage mentalHealthStatusDayImage() {
     if (mentalHealthStatusDay == 0) {
-      return AssetImage('assets/images/happy_big.png');
+      return AssetImage(Global.mainScreenHappyBigImageURL);
     } else if (mentalHealthStatusDay == 1) {
-      return AssetImage('assets/images/neutral_big.png');
+      return AssetImage(Global.mainScreenNeutralBigImageURL);
     } else if (mentalHealthStatusDay == 2) {
-      return AssetImage('assets/images/sad_big.png');
+      return AssetImage(Global.mainScreenSadBigImageURL);
     } else if (mentalHealthStatusDay == 3) {
-      return AssetImage('assets/images/skipped_big.png');
+      return AssetImage(Global.mainScreenSkippedBigImageURL);
     } else {
       print("ERROR SHOULD BE HERE");
-      return AssetImage('assets/images/skipped_big.png');
+      return AssetImage(Global.mainScreenSkippedBigImageURL);
     }
   }
 

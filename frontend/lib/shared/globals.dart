@@ -3,11 +3,13 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class Global {
+
+  //Basic Colors
   static const Color white = const Color(0xffffffff);
   static const Color mediumBlue = const Color(0xff005aa0);
   static const Color letterColor = const Color(0xff0e0e0e);
   static const Color sleepColor = const Color(0xff8fdbe3);
-  static const Color calendarSelectedColor = const Color(0xffa9cbda);
+
   
 
   //Letter size
@@ -15,25 +17,76 @@ class Global {
   static const double letterSizeFactorTitle = 30.0;
   static const double letterSizeDescription = 20.0;
   static const double letterSizeFactorsMain = 32.0;
-  static const double letterSizeCalendarYear = 26.0;
-  static const double letterSizeCalendarDay = 18.0;
   static const double letterSizeCalendarDayStr = 14.0;
-  static const double letterSizeCompleteSurvey = 28.0;
-  static const double letterSizeCompleteDescription = 24.0;
+
 
 
   //String Fonts
   static const String sFProText = 'SF Pro Text';
   static const String sFProItalicText = 'SF Pro Text';
 
+  //Button titles
+  static const String buttonNext = 'Next   ›';
+  static const String buttonBack = '‹   Back';
+  static const String buttonSend = 'Send';
 
-  //String Factors
-  static const String stringFactorsInitialMessage = 'First answer \n these 8 topics';
-  static const String stringInitialMessage = 'Hi, this will only take you a \n couple of minutes to answer';
 
-  //String Message
-  static const String stringSurveyNoAnswerMessage = 'No Data for this day';
+  //Login Information use
+  static const String loginImageURL = 'assets/images/login_image.png';
+  static const String loginWelcomeMessage = 'Welcome to Massay'; 
+  static const FontWeight loginWelcomeMessageFontWeight = FontWeight.w600; 
+  static const String loginMassayDescription = 'Your tool for the early detection of \n job burnout';
+  static const FontWeight loginMassayDescriptionFontWeight = FontWeight.w300;
+  static const String loginEmailHint = 'Email';
+  static const String loginPasswordHint = 'Password';
+  static const String loginPasswordForgotText = 'Forgot password?';
+  static const String loginText = 'Login';
+  static const String loginSignUpText = 'Sign Up';
 
+  //Initial Factor Survey
+  static const String initFactorSurveyTitle = 'Factors';
+  static const String initFactorSurveyInitMessage = 'First answer \n these 8 topics';
+  static const String initFactorSurveyImageURL = 'assets/images/factor_init_image.png';
+  static const String initFactorSurveyDescription = 'Hi, this will only take you a \n couple of minutes to answer';
+  static const FontWeight initFactorSurveyFontWeight = FontWeight.w400; 
+
+  //Complete Initial Factor Survey 
+  static const String completeFactorSurveyTitle = 'Complete!';
+  static const String completeFactorSurveyImageURL = 'assets/images/check_circle.png';
+  static const String completeFactorSurveyInitMessage = 'Daily survey complete';
+  static const double completeFactorSurveyInitSize = 28.0;
+  static const FontWeight completeFactorSurveyInitFontWight = FontWeight.bold;
+  static const String completeFactorSurveyDescriptionMessage = 'Daily survey complete';
+  static const double completeFactorSurveyDescriptionSize = 24.0;
+  static const FontWeight completeFactorSurveyDescriptionFontWight = FontWeight.w200;
+  static const String completeFactorSurveyButtonCheckResult = 'Check Results';
+
+  //Main Screen
+  static const String mainScreenTitle = 'Massay';
+  static const String mainScreenNoneBigImageURL = 'assets/images/none_big.png';
+  static const String mainScreenHappyBigImageURL = 'assets/images/happy_big.png';
+  static const String mainScreenNeutralBigImageURL = 'assets/images/neutral_big.png';
+  static const String mainScreenSadBigImageURL = 'assets/images/sad_big.png';
+  static const String mainScreenSkippedBigImageURL = 'assets/images/skipped_big.png';
+  static const String mainScreenNoAnswerTitle = 'No Data for this day';
+  static const double mainScreenNoAnswerTitleSize = 30.0;
+  static const FontWeight mainScreenNoAnswerTitleFontWeight = FontWeight.bold;
+  static const String mainScreenButtonAnswerSurvey = 'Answer Daily Survey';
+
+
+  //Calendar
+  static const String calendarScreenTitle = 'Evolution';
+  static const double letterSizeCalendarYear = 26.0;
+  static const double letterSizeCalendarDay = 18.0;
+  static const Color calendarSelectedColor = const Color(0xffa9cbda);
+  static const Color calendarDayColor= Colors.black45;
+  static const Color calendarNumberColor= Colors.black;
+  static const String mainScreenNoneImageURL = 'assets/images/none.png';
+  static const String mainScreenHappyImageURL = 'assets/images/happy.png';
+  static const String mainScreenNeutralImageURL = 'assets/images/neutral.png';
+  static const String mainScreenSadImageURL = 'assets/images/sad.png';
+  static const String mainScreenSkippedImageURL = 'assets/images/skipped.png';
+  
 
   //Factors are organized by type/name 
 
@@ -87,12 +140,6 @@ class Global {
 
         //Slider Width button
         static const double factorSliderWidthButton = 150.0;
-
-
-      //Button titles
-      static const String factorButtonNext = 'Next   ›';
-      static const String factorButtonBack = '‹   Back';
-      static const String factorButtonSend = 'Send';
 
     //Factor Exercise
     static const Color factorExerciseColorOne = const Color(0xffE7F1DA);

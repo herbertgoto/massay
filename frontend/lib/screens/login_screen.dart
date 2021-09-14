@@ -13,109 +13,113 @@ import 'package:provider/provider.dart';
 
 
 class LoginScreen extends StatelessWidget {
-  LoginScreen({Key key}) : super(key: key);
+
 
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  
+  LoginScreen({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final model = Provider.of<HomeModel>(context);
     return Scaffold(
       backgroundColor: Global.white,
-      body:  Padding(
-            padding: const EdgeInsets.all(30.0),
-            child: Scrollbar(
-              child: SingleChildScrollView(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: <Widget>[
-                    Image(
-                      image: AssetImage('assets/images/login_image.png'),
-                    ),
-                    Center(
-                      child: Text(
-                        'Welcome to Massay',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Global.letterColor,
-                          fontSize: Global.letterSizeDescription,
-                          fontWeight: FontWeight.w600,
-                        ),
+      body:  SingleChildScrollView(
+        child: Padding(
+              padding: const EdgeInsets.all(30.0),
+              child: Scrollbar(
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: <Widget>[
+                      Image(
+                        image: AssetImage(Global.loginImageURL),
                       ),
-                    ),
-                    SizedBox(
-                      height: 20.0,
-                    ),
-                    Center(
-                      child: Text(
-                        'Your tool for the early detection of \n job burnout',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Global.letterColor,
-                          fontSize: Global.letterSizeDescription,
-                          fontWeight: FontWeight.w300,
-                        ),
-                      ),
-                    ),
-                    SizedBox(
-                      height: 50.0,
-                    ),
-                    TextFieldWidget(
-                      hintText: 'Email',
-                      obscureText: false,
-                      prefixIconData: Icons.mail_outline,
-                      suffixIconData: model.isValid ? Icons.check : null,
-                      onChanged: (value){
-                        model.isValidEmail(value);
-                      },
-                      controller: _emailController,
-                    ),
-                    SizedBox(
-                      height: 10.0,
-                    ),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: <Widget>[
-                        TextFieldWidget(
-                          hintText: 'Password',
-                          obscureText: model.isVisible ? false : true,
-                          prefixIconData: Icons.lock_outline,
-                          suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
-                          controller: _passwordController,
-                        ),
-                        SizedBox(
-                          height: 10.0,
-                        ),
-                        Text(
-                          'Forgot password?',
+                      Center(
+                        child: Text(
+                          Global.loginWelcomeMessage,
+                          textAlign: TextAlign.center,
                           style: TextStyle(
-                            color: Global.mediumBlue,
+                            color: Global.letterColor,
+                            fontSize: Global.letterSizeDescription,
+                            fontWeight: Global.loginWelcomeMessageFontWeight,
                           ),
                         ),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 20.0,
-                    ),
-                    ButtonWidget(
-                      title: 'Login',
-                      hasBorder: false,
-                      onPressed: () => _loginButtonOnPressed(context),
-                    ),
-                    SizedBox(
-                      height: 10.0,
-                    ),
-                    ButtonWidget(
-                      title: 'Sign Up',
-                      hasBorder: true,
-                      onPressed: () => _gotoSignUpScreen(context),
-                    ),
-                  ],
+                      ),
+                      SizedBox(
+                        height: 20.0,
+                      ),
+                      Center(
+                        child: Text(
+                          Global.loginMassayDescription,
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Global.letterColor,
+                            fontSize: Global.letterSizeDescription,
+                            fontWeight: Global.loginMassayDescriptionFontWeight,
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 50.0,
+                      ),
+                      TextFieldWidget(
+                        hintText: Global.loginEmailHint,
+                        obscureText: false,
+                        prefixIconData: Icons.mail_outline,
+                        suffixIconData: model.isValid ? Icons.check : null,
+                        onChanged: (value){
+                          model.isValidEmail(value);
+                        },
+                        controller: _emailController,
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: <Widget>[
+                          TextFieldWidget(
+                            hintText: Global.loginPasswordHint,
+                            obscureText: model.isVisible ? false : true,
+                            prefixIconData: Icons.lock_outline,
+                            suffixIconData: model.isVisible ? Icons.visibility : Icons.visibility_off,
+                            controller: _passwordController,
+                          ),
+                          SizedBox(
+                            height: 10.0,
+                          ),
+                          Text(
+                            Global.loginPasswordForgotText,
+                            style: TextStyle(
+                              color: Global.mediumBlue,
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: 20.0,
+                      ),
+                      ButtonWidget(
+                        title: Global.loginText,
+                        hasBorder: false,
+                        onPressed: () => _loginButtonOnPressed(context),
+                      ),
+                      SizedBox(
+                        height: 10.0,
+                      ),
+                      ButtonWidget(
+                        title: Global.loginSignUpText,
+                        hasBorder: true,
+                        onPressed: () => _gotoSignUpScreen(context),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
-          ),
+      ),
     );
   }
 
@@ -134,7 +138,7 @@ class LoginScreen extends StatelessWidget {
             context,
             MaterialPageRoute(
               //TODO Change FactorsMainScreen to MainScreen
-              builder: (_) => FactorsMainScreen(),
+              builder: (_) => InitFactorSurvey(),
             ),
           );
         }       

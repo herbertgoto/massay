@@ -4,7 +4,10 @@ import 'package:amplify_api/amplify_api.dart';
 import 'package:amplify_flutter/amplify.dart';
 import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
 import 'package:flutter/material.dart';
+import 'package:front_end_amplify/screens/calendar_screen.dart';
+import 'package:front_end_amplify/screens/completesurvey_screen.dart';
 import 'package:front_end_amplify/screens/factor_screen.dart';
+import 'package:front_end_amplify/screens/factors_starts_screen.dart';
 import 'package:front_end_amplify/screens/factorupdate_screen.dart';
 import 'package:front_end_amplify/screens/login_screen.dart';
 import 'package:front_end_amplify/screens/main_screen.dart';
@@ -76,6 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return LoginScreen();
+    // return LoginScreen();
+
+    return MainScreen();
   }
 }
